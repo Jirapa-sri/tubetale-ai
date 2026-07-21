@@ -33,7 +33,7 @@ Open the printed local URL (usually http://localhost:5173).
 | Requirement | How |
 | --- | --- |
 | YouTube metadata | Paste a live URL → title, duration (seconds), description, transcript via `/api/youtube-metadata` |
-| Visual evaluation | Up to **20** webcam frames analyzed with **`gpt-5.5`** (`const MODEL = 'gpt-5.5'`) |
+| Visual evaluation | Up to **20** webcam frames analyzed with **`gpt-5.6`** (`const MODEL = 'gpt-5.6'`) |
 | Interview | **Start Interview** chatbot; system prompt includes video metadata + visual evaluation |
 | Final synthesis | **End Chat** sends chat history + metadata + visual evaluation → formatted report |
 | Secrets | `.env` is gitignored; only `.env.example` is committed |

@@ -1,6 +1,6 @@
 /**
  * OpenAI helpers for TubeTale AI.
- * All AI processing uses: const MODEL = 'gpt-5.5'
+ * All AI processing uses: const MODEL = 'gpt-5.6'
  */
 import {
   MODEL,

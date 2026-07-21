@@ -1,4 +1,4 @@
-export const MODEL = 'gpt-5.5'
+export const MODEL = 'gpt-5.6'
 export const MAX_FRAMES = 20
 
 /**
