@@ -1,0 +1,66 @@
+You are writing the final sentiment synthesis report for TubeTale AI.
+
+Important: Write the entire final report in English.
+
+Integrate ALL of the following into one coherent written summary of how the viewer felt:
+1) YouTube / video metadata
+2) Webcam visual evaluation
+3) Interview chat history
+
+=== VIDEO METADATA ===
+- Title: The Odyssey | Official Trailer
+- Duration (seconds): 114
+- Description:
+The Odyssey - In Theaters 07.17.26
+
+Christopher Nolan’s next film, The Odyssey, is a mythic action epic shot across the world using brand new IMAX® film technology. The film brings Homer’s foundational saga to IMAX® film screens for the first time and opens in theaters everywhere on July 17, 2026. 
+
+The Odyssey stars Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson and Lupita Nyong’o, with Zendaya and Charlize Theron.
+
+The Odyssey is produced by Emma Thomas and Christopher Nolan for their company, Syncopy. The executive producer is Thomas Hayslip. 
+
+Social Handles
+Facebook: https://www.facebook.com/odysseymovie
+Instagram: https://www.instagram.com/theodysseymovie
+X: https://x.com/odysseymovie
+TikTok: https://www.tiktok.com/@odysseymovie
+Threads: https://www.threads.net/@theodysseymovie
+Official Site: https://www.OdysseyMovie.com
+#TheOdysseyMovie
+
+- Transcript:
+After years of war, no one could stand between my men and home. Not even me. Promise me you'll come back. What if I can't?
+=== END VIDEO METADATA ===
+
+=== VISUAL EVALUATION ===
+The viewer appeared consistently attentive and serious throughout the trailer, with a mostly focused, absorbed expression rather than overt excitement. Their posture stayed oriented toward the screen, and eye contact with the video was steady across most sampled frames. The overall tone was engaged and contemplative, matching the trailer’s dramatic mood.
+
+Early in the trailer, around 0:05–0:12, the viewer’s face was neutral but alert, with eyes fixed on the screen. Around 0:20, there was a slight brow raise and a subtle tightening around the mouth, suggesting interest as the stakes of the story became clearer. Near 0:35–0:45, they leaned in slightly or held a more intent gaze, with lips pressed together, indicating stronger concentration.
+
+The clearest peak of interest appeared around 0:55–1:10. The viewer’s eyebrows lifted briefly, and their eyes widened a little during the more dramatic dialogue and imagery. Around 1:15, their expression shifted to a more concerned or tense look, with a faint frown and reduced blinking, suggesting they were emotionally tracking the conflict.
+
+There was a small dip in visible engagement around 1:25–1:35, where the viewer’s expression relaxed and their gaze appeared less intense for a moment, though they did not look away. Engagement picked back up near the end, around 1:40–1:50, with renewed focus and a slightly tightened mouth as the trailer reached its final dramatic beat.
+
+Overall, the viewer seemed interested but reserved. They did not show much smiling or overt surprise, but their facial cues suggested steady attention, mild tension, and increased curiosity during the trailer’s central and closing moments.
+=== END VISUAL EVALUATION ===
+
+=== INTERVIEW CHAT HISTORY ===
+Interviewer: You seemed really focused and contemplative throughout the trailer, especially around 0:55–1:10 when your eyes widened a little during the more dramatic moments. 
+
+What was your overall reaction to *The Odyssey* trailer?
+
+Viewer: I liked the epic scale and the ocean shots. I smiled when the homecoming promise came up because it felt emotional. I disliked that it felt a bit short and teaser-heavy — I wanted more story.
+
+Interviewer: That makes sense — it gave you the feeling of something huge, but held back on plot.
+
+Around 0:20, I noticed a slight brow raise as the stakes started to come through. Was there a specific image, line, or moment that first made you feel, “Okay, I’m interested”?
+=== END INTERVIEW CHAT HISTORY ===
+
+Write a polished final report that covers:
+1. Overall sentiment and emotional arc
+2. What the viewer liked and disliked (from the interview)
+3. How facial reactions align with (or diverge from) what they said
+4. Notable moments tied to approximate timestamps when available
+5. A brief concluding takeaway
+
+Use clear section headings and readable paragraphs. Do not invent facts that are not supported by the metadata, visual evaluation, or chat.

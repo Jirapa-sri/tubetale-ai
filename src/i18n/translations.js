@@ -1,0 +1,201 @@
+const dictionaries = {
+  en: {
+    appName: 'TubeTale AI',
+    headline: 'TubeTale AI',
+    lede: 'Watch YouTube (or your own video) while AI records and analyzes your facial reactions, then interviews you about how it felt.',
+    themeDay: 'Day',
+    themeNight: 'Night',
+    langEn: 'EN',
+    langTh: 'TH',
+    sourceYouTube: 'YouTube URL',
+    sourceUpload: 'Upload video',
+    youtubeUrl: 'YouTube URL',
+    fetchMetadata: 'Paste Link & React!',
+    fetching: 'Loading…',
+    uploadLabel: 'Video file',
+    uploadHint: 'Choose an MP4, WebM, or MOV file from your device.',
+    useUploadedVideo: 'Use uploaded video',
+    loadingUpload: 'Reading video…',
+    invalidYoutube: 'Enter a valid YouTube URL (watch, youtu.be, shorts, or embed).',
+    metadataFailed: 'Metadata fetch failed',
+    uploadFailed: 'Could not read the uploaded video.',
+    needVideoFile: 'Please choose a video file first.',
+    videoMetadata: 'Video Metadata',
+    title: 'Title',
+    duration: 'Duration',
+    seconds: 'seconds',
+    videoId: 'Video ID',
+    source: 'Source',
+    description: 'Description',
+    transcript: 'Transcript',
+    empty: '(empty)',
+    uploadedLocal: 'Uploaded local file',
+    noTranscriptUpload: '(No transcript for uploaded videos. Description uses the file name.)',
+    visualEvaluation: 'Visual Evaluation',
+    visualEvaluationHelp:
+      'Allow webcam access, play the video, and we will sample up to {max} reaction frames for GPT analysis.',
+    startWatchSession: 'Start Watch Session',
+    video: 'Video',
+    webcam: 'Webcam',
+    framesCaptured: 'Frames captured',
+    capturingReactions: 'Capturing reactions…',
+    playToCapture: 'Play the video to capture facial reactions.',
+    cameraOff: 'Camera is off',
+    turnCameraOn: 'Turn camera on',
+    turnCameraOff: 'Turn camera off',
+    startingWebcam: 'Starting webcam…',
+    cameraErrorFallback:
+      'Could not access webcam. Allow camera permission and try again.',
+    runVisualEvaluation: 'Run Visual Evaluation',
+    analyzingReactions: 'Analyzing reactions…',
+    clearFrames: 'Clear Frames',
+    visualEvaluationResult: 'Visual Evaluation Result',
+    exportReactionReel: 'Save webcam video',
+    exportingReactions: 'Saving webcam…',
+    saveWebcamVideo: 'Save webcam video',
+    savingWebcam: 'Saving webcam…',
+    webcamRecording: 'Recording webcam (video playing)…',
+    webcamPausedReady: 'Recording paused — you can save now.',
+    webcamNotRecording:
+      'No webcam recording yet. Play the video with the camera on first.',
+    saveHintWebcam:
+      'Webcam recording starts when you play the video and pauses when you pause. Click save anytime after recording has started.',
+    saveHintReactions:
+      'Saves a video of your captured facial-reaction frames, matched to the visual evaluation when available.',
+    evaluationMatchHint:
+      'Each analysis section is paired with the facial-reaction frame(s) whose timestamps best match the text.',
+    matchedFrame: 'Matched reaction',
+    noMatchedFrame: 'No frame matched this section yet.',
+    allReactionFrames: 'All captured facial reactions',
+    translatingResults: 'Translating AI results…',
+    translateFailed:
+      'Could not translate AI results. Check your API key, then click EN/TH again.',
+    interviewer: 'The Interviewer',
+    interviewerHelp:
+      'After the visual evaluation, start a live chat. The AI already has the video metadata and your facial-reaction analysis.',
+    startInterview: 'Start Interview',
+    startingInterview: 'Starting interview…',
+    interviewHint:
+      'Run the visual evaluation first, then Start Interview will unlock.',
+    you: 'You',
+    interviewerRole: 'Interviewer',
+    thinking: 'Thinking…',
+    yourReply: 'Your reply',
+    typeAnswer: 'Type your answer…',
+    send: 'Send',
+    finalSynthesis: 'Final Synthesis',
+    finalSynthesisHelp:
+      'End the interview to generate a written sentiment report from the video metadata, visual evaluation, and chat history.',
+    endChat: 'End Chat',
+    writingReport: 'Writing final report…',
+    endChatHint:
+      'Complete the visual evaluation and at least start the interview before ending the chat.',
+    sentimentReport: 'Sentiment Report',
+  },
+  th: {
+    appName: 'TubeTale AI',
+    headline: 'TubeTale AI',
+    lede: 'ดู YouTube (หรือวิดีโอของคุณเอง) ขณะที่ AI บันทึกและวิเคราะห์สีหน้า แล้วสัมภาษณ์ความรู้สึกของคุณ',
+    themeDay: 'กลางวัน',
+    themeNight: 'กลางคืน',
+    langEn: 'EN',
+    langTh: 'TH',
+    sourceYouTube: 'ลิงก์ YouTube',
+    sourceUpload: 'อัปโหลดวิดีโอ',
+    youtubeUrl: 'ลิงก์ YouTube',
+    fetchMetadata: 'วางลิงก์แล้วเริ่ม!',
+    fetching: 'กำลังโหลด…',
+    uploadLabel: 'ไฟล์วิดีโอ',
+    uploadHint: 'เลือกไฟล์ MP4, WebM หรือ MOV จากเครื่องของคุณ',
+    useUploadedVideo: 'ใช้วิดีโอที่อัปโหลด',
+    loadingUpload: 'กำลังอ่านวิดีโอ…',
+    invalidYoutube: 'ใส่ลิงก์ YouTube ให้ถูกต้อง (watch, youtu.be, shorts หรือ embed)',
+    metadataFailed: 'ดึงข้อมูลวิดีโอไม่สำเร็จ',
+    uploadFailed: 'อ่านไฟล์วิดีโอที่อัปโหลดไม่สำเร็จ',
+    needVideoFile: 'กรุณาเลือกไฟล์วิดีโอก่อน',
+    videoMetadata: 'ข้อมูลวิดีโอ',
+    title: 'ชื่อเรื่อง',
+    duration: 'ความยาว',
+    seconds: 'วินาที',
+    videoId: 'รหัสวิดีโอ',
+    source: 'แหล่งที่มา',
+    description: 'คำอธิบาย',
+    transcript: 'บทถอดเสียง',
+    empty: '(ว่าง)',
+    uploadedLocal: 'ไฟล์อัปโหลดจากเครื่อง',
+    noTranscriptUpload: '(ไม่มีบทถอดเสียงสำหรับวิดีโอที่อัปโหลด คำอธิบายใช้ชื่อไฟล์)',
+    visualEvaluation: 'การประเมินภาพใบหน้า',
+    visualEvaluationHelp:
+      'อนุญาตการใช้เว็บแคม แล้วเล่นวิดีโอ ระบบจะสุ่มจับภาพปฏิกิริยาสูงสุด {max} ภาพเพื่อวิเคราะห์ด้วย GPT',
+    startWatchSession: 'เริ่มเซสชันการรับชม',
+    video: 'วิดีโอ',
+    webcam: 'เว็บแคม',
+    framesCaptured: 'จำนวนเฟรมที่จับได้',
+    capturingReactions: 'กำลังจับปฏิกิริยา…',
+    playToCapture: 'เล่นวิดีโอเพื่อจับปฏิกิริยาบนใบหน้า',
+    cameraOff: 'กล้องปิดอยู่',
+    turnCameraOn: 'เปิดกล้อง',
+    turnCameraOff: 'ปิดกล้อง',
+    startingWebcam: 'กำลังเปิดเว็บแคม…',
+    cameraErrorFallback:
+      'เข้าถึงเว็บแคมไม่ได้ โปรดอนุญาตการใช้กล้องแล้วลองใหม่',
+    runVisualEvaluation: 'วิเคราะห์ปฏิกิริยา',
+    analyzingReactions: 'กำลังวิเคราะห์ปฏิกิริยา…',
+    clearFrames: 'ล้างเฟรม',
+    visualEvaluationResult: 'ผลการประเมินภาพ',
+    exportReactionReel: 'บันทึกวิดีโอเว็บแคม',
+    exportingReactions: 'กำลังบันทึกเว็บแคม…',
+    saveWebcamVideo: 'บันทึกวิดีโอเว็บแคม',
+    savingWebcam: 'กำลังบันทึกเว็บแคม…',
+    webcamRecording: 'กำลังบันทึกเว็บแคม (วิดีโอกำลังเล่น)…',
+    webcamPausedReady: 'หยุดบันทึกชั่วคราว — กดบันทึกได้เลย',
+    webcamNotRecording: 'ยังไม่มีการบันทึก เปิดกล้องแล้วกดเล่นวิดีโอก่อน',
+    saveHintWebcam:
+      'เริ่มบันทึกเว็บแคมเมื่อกดเล่นวิดีโอ และหยุดชั่วคราวเมื่อพักคลิป กดบันทึกได้หลังจากเริ่มบันทึกแล้ว',
+    saveHintReactions:
+      'บันทึกวิดีโอจากเฟรมปฏิกิริยาใบหน้าที่จับได้ และจับคู่กับการประเมินภาพเมื่อมีผลวิเคราะห์แล้ว',
+    evaluationMatchHint:
+      'แต่ละช่วงการวิเคราะห์จะจับคู่กับเฟรมปฏิกิริยาใบหน้าที่เวลาใกล้เคียงที่สุด',
+    matchedFrame: 'ปฏิกิริยาที่จับคู่',
+    noMatchedFrame: 'ยังไม่มีเฟรมที่ตรงกับช่วงนี้',
+    allReactionFrames: 'ปฏิกิริยาใบหน้าทั้งหมดที่จับได้',
+    translatingResults: 'กำลังแปลผลจาก AI…',
+    translateFailed:
+      'แปลผล AI ไม่สำเร็จ ตรวจสอบ API key แล้วกด EN/TH อีกครั้ง',
+    interviewer: 'ผู้สัมภาษณ์',
+    interviewerHelp:
+      'หลังประเมินภาพแล้ว เริ่มแชทได้ AI มีข้อมูลวิดีโอและการวิเคราะห์ปฏิกิริยาบนใบหน้าแล้ว',
+    startInterview: 'เริ่มสัมภาษณ์',
+    startingInterview: 'กำลังเริ่มสัมภาษณ์…',
+    interviewHint: 'วิเคราะห์ปฏิกิริยาก่อน จากนั้นปุ่มเริ่มสัมภาษณ์จะใช้งานได้',
+    you: 'คุณ',
+    interviewerRole: 'ผู้สัมภาษณ์',
+    thinking: 'กำลังคิด…',
+    yourReply: 'คำตอบของคุณ',
+    typeAnswer: 'พิมพ์คำตอบ…',
+    send: 'ส่ง',
+    finalSynthesis: 'สรุปผลสุดท้าย',
+    finalSynthesisHelp:
+      'จบการสัมภาษณ์เพื่อสร้างรายงานสรุปอารมณ์จากข้อมูลวิดีโอ การประเมินภาพ และประวัติแชท',
+    endChat: 'จบแชท',
+    writingReport: 'กำลังเขียนรายงาน…',
+    endChatHint: 'ทำประเมินภาพและเริ่มสัมภาษณ์อย่างน้อยหนึ่งครั้งก่อนจบแชท',
+    sentimentReport: 'รายงานอารมณ์',
+  },
+}
+
+export function t(lang, key, vars = {}) {
+  const dict = dictionaries[lang] || dictionaries.en
+  let text = dict[key] ?? dictionaries.en[key] ?? key
+  for (const [name, value] of Object.entries(vars)) {
+    text = text.replaceAll(`{${name}}`, String(value))
+  }
+  return text
+}
+
+export function aiLanguageInstruction(lang) {
+  if (lang === 'th') {
+    return 'Important: Reply to the user in Thai (ภาษาไทย).'
+  }
+  return 'Important: Reply to the user in English.'
+}

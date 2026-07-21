@@ -1,0 +1,127 @@
+/* TubeTale AI — dual theme design tokens */
+
+:root {
+  /* Shared typography — slightly rounded modern sans */
+  --font-display: 'Nunito', 'Avenir Next', 'Segoe UI', sans-serif;
+  --font-body: 'Nunito', 'Avenir Next', 'Segoe UI', sans-serif;
+  --font-mono: 'SF Mono', 'Menlo', 'Consolas', monospace;
+
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.5rem;
+  --radius-pill: 999px;
+
+  --ease-theme: background-color 300ms ease, color 300ms ease,
+    border-color 300ms ease, box-shadow 300ms ease;
+}
+
+/* ─── LIGHT / DAY — Pastel Tech ─── */
+:root,
+[data-theme='day'],
+html:not(.dark) {
+  --bg: #f8f9fa;
+  --surface: #e8e5ff;
+  --surface-solid: #e8e5ff;
+  --surface-elevated: #ffffff;
+  --border: color-mix(in srgb, #635bff 18%, #d8d5ef);
+  --text: #1c1b1f;
+  --muted: color-mix(in srgb, #1c1b1f 58%, #f8f9fa);
+  --accent: #635bff;
+  --accent-hover: #5249e6;
+  --accent-soft: color-mix(in srgb, #635bff 16%, #ffffff);
+  --danger: #d64545;
+  --chip-bg: color-mix(in srgb, #e8e5ff 70%, #ffffff);
+  --report-bg: linear-gradient(180deg, #ffffff, #f0eeff);
+  --scroll-bg: #ffffff;
+  --btn-text: #ffffff;
+  --bg-glow-a: #e8e5ff;
+  --bg-glow-b: #d1f5ea;
+  --error-text: #8b1e1e;
+  --live: #1a9b7a;
+  --success: #d1f5ea;
+  --success-text: #0f6b54;
+  --webcam-bg: #1c1b1f;
+}
+
+/* ─── DARK / NIGHT — Cinema Cozy ─── */
+[data-theme='night'],
+html.dark {
+  --bg: #1a1616;
+  --surface: #2c2424;
+  --surface-solid: #2c2424;
+  --surface-elevated: #352c2c;
+  --border: color-mix(in srgb, #f4f1de 12%, #2c2424);
+  --text: #f4f1de;
+  --muted: color-mix(in srgb, #f4f1de 62%, #1a1616);
+  --accent: #e07a5f;
+  --accent-hover: #eb8f78;
+  --accent-soft: color-mix(in srgb, #e07a5f 22%, #2c2424);
+  --danger: #e07a7a;
+  --chip-bg: #241e1e;
+  --report-bg: linear-gradient(180deg, #322828, #241e1e);
+  --scroll-bg: #241e1e;
+  --btn-text: #f4f1de;
+  --bg-glow-a: #2c2424;
+  --bg-glow-b: #3a2e28;
+  --error-text: #ffc9c9;
+  --live: #81b29a;
+  --success: #81b29a;
+  --success-text: #1a1616;
+  --webcam-bg: #120e0e;
+}
+
+html {
+  margin: 0;
+  min-height: 100%;
+  color-scheme: light;
+  transition: var(--ease-theme);
+}
+
+html.dark,
+html[data-theme='night'] {
+  color-scheme: dark;
+}
+
+:root {
+  color: var(--text);
+  background:
+    radial-gradient(1100px 560px at 8% -12%, var(--bg-glow-a), transparent 55%),
+    radial-gradient(900px 480px at 100% 0%, var(--bg-glow-b), transparent 50%),
+    linear-gradient(165deg, var(--bg) 0%, color-mix(in srgb, var(--bg) 92%, var(--surface)) 100%);
+  background-attachment: fixed;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  transition: var(--ease-theme);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-y: auto;
+  background: transparent;
+  color: var(--text);
+  transition: var(--ease-theme);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  font-size: 16px;
+}
