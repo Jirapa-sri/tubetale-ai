@@ -4,6 +4,11 @@ import {
   sendInterviewChat,
 } from '../utils/openai'
 import { useSettings } from '../context/SettingsContext'
+import {
+  downloadTextFile,
+  formatInterviewTranscript,
+  safeFilenamePart,
+} from '../utils/download'
 
 export default function InterviewChat({
   metadata,
@@ -19,6 +24,7 @@ export default function InterviewChat({
   const listRef = useRef(null)
 
   const visibleMessages = messages.filter((m) => m.role !== 'system')
+  const canDownloadInterview = visibleMessages.length > 0
 
   useEffect(() => {
     if (messages.some((m) => m.role === 'assistant')) {
@@ -102,6 +108,21 @@ export default function InterviewChat({
     }
   }
 
+  function handleDownloadInterview() {
+    const title = safeFilenamePart(metadata?.title, 'interview')
+    const body = [
+      'TubeTale AI — Interview',
+      `Video: ${metadata?.title || '(unknown)'}`,
+      `Language: ${lang}`,
+      '',
+      formatInterviewTranscript(visibleMessages, {
+        interviewer: tr('interviewerRole'),
+        you: tr('you'),
+      }),
+    ].join('\n')
+    downloadTextFile(`tubetale-interview-${title}.txt`, body)
+  }
+
   return (
     <section className="interview-panel">
       <div className="section-heading">
@@ -163,6 +184,17 @@ export default function InterviewChat({
               {tr('send')}
             </button>
           </form>
+
+          <div className="download-actions">
+            <button
+              type="button"
+              className="secondary-btn"
+              onClick={handleDownloadInterview}
+              disabled={!canDownloadInterview || busy}
+            >
+              {tr('downloadInterview')}
+            </button>
+          </div>
         </>
       )}
 

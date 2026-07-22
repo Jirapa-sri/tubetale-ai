@@ -776,10 +776,26 @@
   border-top: 1px solid var(--border);
 }
 
+.final-report-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+}
+
 .final-report h3 {
-  margin: 0 0 0.65rem;
+  margin: 0;
   font-family: var(--font-display);
   font-size: 1.25rem;
+}
+
+.download-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 0.85rem;
 }
 
 .final-report-body {

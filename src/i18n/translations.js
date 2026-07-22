@@ -91,6 +91,8 @@ const dictionaries = {
     endChatHint:
       'Complete the visual evaluation and at least start the interview before ending the chat.',
     sentimentReport: 'Sentiment Report',
+    downloadInterview: 'Download interview',
+    downloadSentimentReport: 'Download sentiment report',
   },
   th: {
     appName: 'TubeTale AI',
@@ -181,6 +183,8 @@ const dictionaries = {
     writingReport: 'กำลังเขียนรายงาน…',
     endChatHint: 'ทำประเมินภาพและเริ่มสัมภาษณ์อย่างน้อยหนึ่งครั้งก่อนจบแชท',
     sentimentReport: 'รายงานอารมณ์',
+    downloadInterview: 'ดาวน์โหลดบทสัมภาษณ์',
+    downloadSentimentReport: 'ดาวน์โหลดรายงานอารมณ์',
   },
 }
 

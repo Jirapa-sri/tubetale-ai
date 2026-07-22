@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { synthesizeFinalReport } from '../utils/openai'
 import { useSettings } from '../context/SettingsContext'
+import { downloadTextFile, safeFilenamePart } from '../utils/download'
 
 export default function FinalSynthesis({
   metadata,
@@ -35,6 +36,19 @@ export default function FinalSynthesis({
     }
   }
 
+  function handleDownloadReport() {
+    if (!report?.trim()) return
+    const title = safeFilenamePart(metadata?.title, 'report')
+    const body = [
+      `TubeTale AI — ${tr('sentimentReport')}`,
+      `Video: ${metadata?.title || '(unknown)'}`,
+      `Language: ${lang}`,
+      '',
+      report,
+    ].join('\n')
+    downloadTextFile(`tubetale-sentiment-report-${title}.txt`, body)
+  }
+
   return (
     <section className="synthesis-panel">
       <div className="section-heading">
@@ -61,7 +75,16 @@ export default function FinalSynthesis({
 
       {report && (
         <article className="final-report">
-          <h3>{tr('sentimentReport')}</h3>
+          <div className="final-report-header">
+            <h3>{tr('sentimentReport')}</h3>
+            <button
+              type="button"
+              className="secondary-btn"
+              onClick={handleDownloadReport}
+            >
+              {tr('downloadSentimentReport')}
+            </button>
+          </div>
           <div className="final-report-body">{report}</div>
         </article>
       )}
