@@ -1,5 +1,5 @@
 /**
- * Generates ai_grading/ outputs for the Spider-Man Brand New Day trailer test video.
+ * Generates ai_grading/ outputs for the Odyssey trailer test video.
  * Uses the same prompt builders as the app.
  *
  * Usage: node scripts/generate-grading-outputs.mjs
@@ -16,7 +16,7 @@ import {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
-const TEST_URL = 'https://www.youtube.com/watch?v=daXaTug8rL4'
+const TEST_URL = 'https://www.youtube.com/watch?v=Mzw2ttJD2qQ'
 
 async function loadApiKey() {
   const envText = await readFile(path.join(root, '.env'), 'utf8')
@@ -98,7 +98,7 @@ Keep it grounded and useful for an interviewer. Plain readable paragraphs.`,
   ])
 
   const userReply =
-    'I liked the memories of Peter with MJ and Ned — it felt like they still remember him in their hearts. I disliked that the timeline was confusing, especially the invisible threat in the middle, but I am excited to discover what it is.'
+    'I liked the epic scale and the ocean shots. I smiled when the homecoming promise came up because it felt emotional. I disliked that it felt a bit short and teaser-heavy — I wanted more story.'
 
   const followUp = await chat(apiKey, [
     { role: 'system', content: systemPrompt },

@@ -17,7 +17,7 @@ import { useSettings } from './context/SettingsContext'
 import { MODEL } from './utils/openai'
 import './App.css'
 
-const TEST_VIDEO_URL = 'https://www.youtube.com/watch?v=daXaTug8rL4'
+const TEST_VIDEO_URL = 'https://www.youtube.com/watch?v=Mzw2ttJD2qQ'
 
 function App() {
   const { tr, theme, lang, setTheme, setLang } = useSettings()

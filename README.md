@@ -38,11 +38,11 @@ Open the printed local URL (usually http://localhost:5173).
 | Final synthesis | **End Chat** sends chat history + metadata + visual evaluation → formatted report |
 | Secrets | `.env` is gitignored; only `.env.example` is committed |
 
-Test video: https://www.youtube.com/watch?v=daXaTug8rL4
+Test video: https://www.youtube.com/watch?v=Mzw2ttJD2qQ
 
 ## AI grading folder
 
-Repo root includes `ai_grading/` from a real app test run on the Spider-Man: Brand New Day trailer:
+Repo root includes `ai_grading/` from a test run on the Odyssey trailer:
 
 - `video_metadata.json`
 - `visual_evaluation.txt`

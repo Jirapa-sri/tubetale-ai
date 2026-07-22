@@ -1,6 +1,6 @@
 You are writing the final sentiment synthesis report for TubeTale AI.
 
-CRITICAL LANGUAGE RULE: Write the ENTIRE final report in English.
+Important: Write the entire final report in English.
 
 Integrate ALL of the following into one coherent written summary of how the viewer felt:
 1) YouTube / video metadata
@@ -8,105 +8,52 @@ Integrate ALL of the following into one coherent written summary of how the view
 3) Interview chat history
 
 === VIDEO METADATA ===
-- Title: SPIDER-MAN: BRAND NEW DAY – Final Trailer (Peter’s Journey) 4K
-- Duration (seconds): 157
+- Title: The Odyssey | Official Trailer
+- Duration (seconds): 114
 - Description:
-It's about to be a Brand New Day. Get tickets now.
+The Odyssey - In Theaters 07.17.26
 
-#SpiderManBrandNewDay is in theatres July 31. 
+Christopher Nolan’s next film, The Odyssey, is a mythic action epic shot across the world using brand new IMAX® film technology. The film brings Homer’s foundational saga to IMAX® film screens for the first time and opens in theaters everywhere on July 17, 2026. 
 
-It's a BRAND NEW DAY for Peter Parker. Fighting crime full-time as Spider-Man in a world that doesn’t remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.
- 
-The world may have forgotten Peter Parker, but he hasn’t forgotten them.
+The Odyssey stars Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson and Lupita Nyong’o, with Zendaya and Charlize Theron.
 
-► SUBSCRIBE to the channel to get notified when new Marvel videos are posted: https://www.youtube.com/marvel?sub_confirmation=1
+The Odyssey is produced by Emma Thomas and Christopher Nolan for their company, Syncopy. The executive producer is Thomas Hayslip. 
 
-► SUBSCRIBE to Disney+ to stream all of your favorite Marvel shows and movies: https://www.disneyplus.com/
-
-Follow on social media to get the latest news and announcements from Marvel:
-
-TikTok: https://www.tiktok.com/@marvel
-Instagram: https://www.instagram.com/marvel
-Facebook: https://www.facebook.com/Marvel
-X: https://x.com/marvel
-
-Experience more stories by subscribing: 
-
-@Disney 
-@StarWars 
-@pixar 
-@disneyplus
+Social Handles
+Facebook: https://www.facebook.com/odysseymovie
+Instagram: https://www.instagram.com/theodysseymovie
+X: https://x.com/odysseymovie
+TikTok: https://www.tiktok.com/@odysseymovie
+Threads: https://www.threads.net/@theodysseymovie
+Official Site: https://www.OdysseyMovie.com
+#TheOdysseyMovie
 
 - Transcript:
-Hi, my name is Peter Parker. I have something to tell you that's going [music] to sound crazy. But, it's the truth. >> You're the Spider-Man. >> You can't tell anybody about this. Can you keep it a secret? >> Okay. >> Thank you. Everybody good? >> Yeah, Spider-Man. >> We used to know each other. >> [music] >> We were together. But, something bad was going to happen. Me. And the only way to stop it [music] was to do the hard thing. You're going to forget who I am. >> What? >> What are you talking about? >> I'm going to come and find you. And [music] I'll explain everything. >> You better. I love you. I love you. Just wait until [music] me when you see me again. >> My name is Peter Parker and I I like a coffee. >> Is there anything [music] else? >> Maybe I'll never read this to you. >> No. >> Maybe I'm just writing this for me. And maybe that's my responsibility to live alone with the truth. Because I'm not just Peter Parker. I'm Spider-Man. >> When [music] faced with a threat that can be anyone. >> You sure you want to do this, Scorpion? >> You think I'm Scorpion? >> Talk to Banner? >> No Banner. Only Hulk. >> I'm sorry for you in danger. >> I'm sorry for your inconvenience. >> you that I would keep you safe. Please, you just have to trust me. Come on. >> Fine. >> You're the only one who can sense it. >> [music] >> Hey, can we do this one at a time, please? >> You're the only one who can defeat it. >> [music] >> The Spidey Tracker app says that Spider-Man is in the direct vicinity. >> Oh, yeah? No way, that's crazy.
+After years of war, no one could stand between my men and home. Not even me. Promise me you'll come back. What if I can't?
 === END VIDEO METADATA ===
 
 === VISUAL EVALUATION ===
-- **Overall tone and engagement:** The viewer maintains a largely neutral, attentive expression throughout the trailer. Her gaze stays directed toward the screen, with minimal head movement and no clear signs of amusement, strong excitement, or boredom. The overall reaction is restrained and concentrated.
+The viewer appeared consistently attentive and serious throughout the trailer, with a mostly focused, absorbed expression rather than overt excitement. Their posture stayed oriented toward the screen, and eye contact with the video was steady across most sampled frames. The overall tone was engaged and contemplative, matching the trailer’s dramatic mood.
 
-- **Around 0:00:** She begins with a calm expression and a faintly softened mouth, while a person passes behind her. She remains oriented toward the screen.
+Early in the trailer, around 0:05–0:12, the viewer’s face was neutral but alert, with eyes fixed on the screen. Around 0:20, there was a slight brow raise and a subtle tightening around the mouth, suggesting interest as the stakes of the story became clearer. Near 0:35–0:45, they leaned in slightly or held a more intent gaze, with lips pressed together, indicating stronger concentration.
 
-- **Around 0:08–0:16:** Her eyes angle slightly downward and her lips settle into a neutral line. This looks like quiet concentration rather than a strong emotional response.
+The clearest peak of interest appeared around 0:55–1:10. The viewer’s eyebrows lifted briefly, and their eyes widened a little during the more dramatic dialogue and imagery. Around 1:15, their expression shifted to a more concerned or tense look, with a faint frown and reduced blinking, suggesting they were emotionally tracking the conflict.
 
-- **Around 0:24–0:56:** She looks steadily forward with slightly more open eyes. Her face remains composed; there is no visible smile, frown, or pronounced surprise.
+There was a small dip in visible engagement around 1:25–1:35, where the viewer’s expression relaxed and their gaze appeared less intense for a moment, though they did not look away. Engagement picked back up near the end, around 1:40–1:50, with renewed focus and a slightly tightened mouth as the trailer reached its final dramatic beat.
 
-- **Around 1:04:** A brief downward or half-lidded gaze is visible, possibly a blink or momentary reduction in visual focus. By **1:12**, she is again looking directly toward the screen.
-
-- **Around 1:20–1:36:** Her expression stays serious and attentive, with little change in posture or facial movement.
-
-- **Around 1:44:** This is the clearest reaction shift. She raises a hand to cover or rest against her mouth, and her eyes appear somewhat wider. Visually, this suggests heightened attention or contemplation, though the precise emotion is not certain.
-
-- **Around 1:52–2:24:** She keeps her hand near her mouth while watching intently. Her brow and mouth remain mostly neutral, with no overt smile or frown. This sustained pose is the strongest visible indicator of engagement in the session.
-
-- **Around 2:32:** She lowers her hand and returns to her earlier neutral posture. Her gaze remains on the screen through the end.
-
-- **Peak visible interest:** Approximately **1:44–2:24**, marked by the hand-to-mouth gesture and slightly widened eyes.
-
-- **Possible low-engagement moment:** Around **1:04**, when her gaze briefly lowers or her eyelids narrow. However, there is no sustained or clear evidence of boredom or disengagement.
+Overall, the viewer seemed interested but reserved. They did not show much smiling or overt surprise, but their facial cues suggested steady attention, mild tension, and increased curiosity during the trailer’s central and closing moments.
 === END VISUAL EVALUATION ===
 
 === INTERVIEW CHAT HISTORY ===
-Interviewer: Thanks for watching! Around 1:44, you brought your hand to your mouth and seemed more intensely focused. What was happening in the trailer that prompted that reaction?
+Interviewer: You seemed really focused and contemplative throughout the trailer, especially around 0:55–1:10 when your eyes widened a little during the more dramatic moments. 
 
-Viewer: i wondering is really net and mj really forget peter
+What was your overall reaction to *The Odyssey* trailer?
 
-Interviewer: Yes, the trailer suggests that Ned and MJ truly forgot Peter because of the spell. How did that idea make you feel—sad, curious, or hopeful that they might remember him again?
+Viewer: I liked the epic scale and the ocean shots. I smiled when the homecoming promise came up because it felt emotional. I disliked that it felt a bit short and teaser-heavy — I wanted more story.
 
-Viewer: i feel like their are feel like they still remember peter by their heart
+Interviewer: That makes sense — it gave you the feeling of something huge, but held back on plot.
 
-Interviewer: That’s a touching interpretation—maybe their minds forgot Peter, but their emotional connection remains. Which moment in the trailer made you feel that Ned and MJ still remember him in their hearts?
-
-Viewer: they always llok for peter and spiderman
-
-Interviewer: It sounds like their attention toward Peter and Spider-Man gave you hope. Was that emotional connection what you liked most about the trailer?
-
-Viewer: they show their memory between them
-
-Interviewer: Did you like the flashbacks of Peter, MJ, and Ned together, or did they make you feel more sad about what they lost?
-
-Viewer: it feel like they have hope to come back together
-
-Interviewer: That sense of hope seems important to you. Was there anything you disliked or found confusing in the trailer?
-
-Viewer: timeline in the trailer
-
-Interviewer: Was the timeline confusing because the trailer quickly mixed Peter’s old memories with the new story and threat?
-
-Viewer: yes
-
-Interviewer: That makes sense—the rapid cuts between past memories and the present can be hard to follow. Which part of the timeline would you most want the full movie to explain?
-
-Viewer: the middle part
-
-Interviewer: In the middle, were you most confused by Peter’s transformation, the invisible threat, or when the scenes were taking place?
-
-Viewer: the invisible threat
-
-Interviewer: The invisible threat does seem intentionally mysterious. Are you excited to discover who or what it is, or did the lack of explanation make the trailer less enjoyable?
-
-Viewer: i excited to discover
-
-Interviewer: That mystery clearly kept you engaged, especially during your focused hand-to-mouth reaction around 1:44. What do you predict the invisible threat actually is?
+Around 0:20, I noticed a slight brow raise as the stakes started to come through. Was there a specific image, line, or moment that first made you feel, “Okay, I’m interested”?
 === END INTERVIEW CHAT HISTORY ===
 
 Write a polished final report that covers:
@@ -117,5 +64,3 @@ Write a polished final report that covers:
 5. A brief concluding takeaway
 
 Use clear section headings and readable paragraphs. Do not invent facts that are not supported by the metadata, visual evaluation, or chat.
-
-CRITICAL LANGUAGE RULE: Write the ENTIRE final report in English.
